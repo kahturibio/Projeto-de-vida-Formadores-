@@ -17,7 +17,6 @@ for (let i = 0; i < botoes.length; i++) {
 //document.querySelector("#minhaDiv p").textContent = "Olá Chuva!";
 const contadores = document.querySelectorAll(".contador");
 
-const tempoAtual = new Date(); //retorna data atual do computador
-const tempoObjetivo1 = new Date("2024-10-13T00:00:00");
-
+let tempoAtual = new Date(); //retorna data atual do computador
+const tempoObjetivo1 = new Date("2024-05-31T00:00:00");
 contadores[0].textContent = tempoObjetivo1 - tempoAtual; 
